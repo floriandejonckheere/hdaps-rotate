@@ -1,3 +1,10 @@
+/*
+ * hdaps-rotate - execute a script depending on the HDAPS accelerometer state
+ * 
+ * Florian Dejonckheere <florian@floriandejonckheere.be>
+ * 
+ * */
+
 #include <unistd.h>
 #include <fcntl.h>
 #include <stdio.h>
@@ -137,7 +144,7 @@ int main (int argc, char** argv){
 			default:
 				printf("Usage: %s [OPTIONS]\n", argv[0]);
 				printf("Options:\n");
-				printf("\t-v, --verbose\t\t\tPrint out threshold and measurements\n");
+				printf("\t-v, --verbose\t\t\tPrint out thresholds and measurements\n");
 				printf("\t-l, --threshold-left=I\t\tThreshold for rotating left\n");
 				printf("\t-r, --threshold-right=I\t\tThreshold for rotating right\n");
 				printf("\t-i, --interval=i\t\tPolling interval\n");

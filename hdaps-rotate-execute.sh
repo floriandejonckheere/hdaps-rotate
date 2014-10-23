@@ -1,6 +1,8 @@
-#!/usr/bin/bash
+#!/usr/bin/sh
 #
 # hdaps-rotate-execute - Execute command on rotate
+#
+# Florian Dejonckheere <florian@floriandejonckheere.be>
 #
 
 ROTATE=$1
